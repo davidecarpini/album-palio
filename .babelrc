@@ -1,0 +1,25 @@
+{
+    "presets": [
+        "react-native"
+    ],
+    "plugins": [
+      "transform-decorators-legacy",
+      ["module-resolver", {
+        "cwd": "babelrc",
+        "root": ["./app"],
+        "alias": {
+          "withLoader": "./app/withLoader",
+          "atoms": "./app/atoms",
+          "config": "./app/config",
+          "strings": "./app/strings",
+          "language": "./app/language",
+          "cells": "./app/cells",
+          "screens": "./app/screens",
+          "templates": "./app/templates",
+          "state": "./app/state",
+          "utility": "./app/utility",
+          "playground": "./app/_playground"
+        }
+      }]
+    ]
+}
