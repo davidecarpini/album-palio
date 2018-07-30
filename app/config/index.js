@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Login from "screens/Login";
-import Button from "atoms/Button";
+import ScanQRCode from "screens/ScanQRCode";
 
 // if login active, must be active graphql
 export default {
@@ -18,16 +18,16 @@ export default {
     router: {
       active: true,
       login: {
-        active: true,
+        active: false,
         key: "login",
         component: Login,
         title: "Login"
       },
       scenes: [
         {
-          key: "button",
-          component: Button,
-          title: "Button",
+          key: "scanqrcode",
+          component: ScanQRCode,
+          title: "QRCode",
           initial: true
         }
       ]

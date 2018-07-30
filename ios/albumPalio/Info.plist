@@ -22,6 +22,17 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSCameraUsageDescription</key>
+	<!--Your message to user when the camera is accessed for the first time-->
+	<string>Caro utente ci servirebbe l'accesso alla fotocamera per scattarti le foto nudo, a noi piace cosi</string>
+	<!-- Include this only if you are planning to use the camera roll -->
+	<!-- Your message to user when the photo library is accessed for the first time-->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Caro utente voglio l'accesso alla tua fotocamera per condividere tutte le tue foto</string>
+	<!-- Include this only if you are planning to use the microphone for video recording -->
+	<key>NSMicrophoneUsageDescription</key>
+	<!-- Your message to user when the photo library is accessed for the first time-->
+	<string>Caro utente voglio l'accesso al tuo microfono per sentire le cazzate che dici</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
