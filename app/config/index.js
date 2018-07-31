@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import Login from "screens/Login";
 import ScanQRCode from "screens/ScanQRCode";
+import Home from "screens/Home";
 
 // if login active, must be active graphql
 export default {
@@ -25,10 +26,16 @@ export default {
       },
       scenes: [
         {
+          key: "home",
+          component: Home,
+          title: "Home",
+          initial: true
+        },
+        {
           key: "scanqrcode",
           component: ScanQRCode,
           title: "QRCode",
-          initial: true
+          initial: false
         }
       ]
     }
